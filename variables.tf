@@ -22,12 +22,7 @@ variable "UsernameTag" {
 
 variable "EnvironmentTag" {
   type    = string
-  default = "Poc"
-}
-
-variable "EnvironmentUsageTag" {
-  type    = string
-  default = "Poc usage only"
+  default = "Test"
 }
 
 variable "OwnerTag" {
@@ -37,7 +32,6 @@ variable "OwnerTag" {
 
 variable "ProvisioningDateTag" {
   type = string
-  default = "today :)"
 }
 
 variable "ProvisioningModeTag" {

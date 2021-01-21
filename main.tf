@@ -12,7 +12,6 @@ resource "azurerm_key_vault_secret" "TerraSecret" {
 
   tags = {
     Environment       = var.EnvironmentTag
-    EnvironmentUsage  = var.EnvironmentUsageTag
     Owner             = var.OwnerTag
     ProvisioningDate  = var.ProvisioningDateTag
     ProvisioningMode  = var.ProvisioningModeTag
