@@ -18,8 +18,8 @@ module "Kv-DemoVaultSecret" {
   KeyVaultId = module.Kv-Demo.Id #you must provided a valid existing Keyvault ID.
   UsernameTag = "localuser" #this tag help to save the username associated with the registered secret
   #EnvironmentTag = "Prod" #Default value is "Test", you can use this tag to identify test, stage, prod, or any other type of environment
+  #UsageTag = "Demo" #Optional. Default value is "PoC Usage Only"
   #OwnerTag = "whoever is accountable for this resource" #Default value is "Nate" so I suggest you change it :)
-  ProvisioningDateTag = timestamp()
   #ProvisioningModeTag = "Terraform" #Default value is "Terraform"
 }
 ```

@@ -30,10 +30,10 @@ variable "OwnerTag" {
   default = "Nate"
 }
 
-variable "ProvisioningDateTag" {
+variable "UsageTag" {
   type = string
+  default = "PoC usage only"
 }
-
 variable "ProvisioningModeTag" {
   type = string
   default = "Terraform"
