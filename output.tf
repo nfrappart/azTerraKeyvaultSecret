@@ -14,4 +14,5 @@ output "Name" {
 
 output "Value" {
   value = azurerm_key_vault_secret.TerraSecret.value
+  sensitive = true
 }
